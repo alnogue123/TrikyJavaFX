@@ -1,0 +1,18 @@
+.Box00,.Box01 ,.Box02,
+.Box10,.Box11 ,.Box12,
+.Box20,.Box21 ,.Box22{
+    -fx-border-color: black transparent black black;
+    -fx-border-width: 2 0 0 2;
+    -fx-border-style: solid;
+    -fx-font-size: 100px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.Box00:hover, .Box01:hover, .Box02:hover,
+.Box10:hover, .Box11:hover, .Box12:hover,
+.Box20:hover, .Box21:hover, .Box22:hover {
+    -fx-background-color: #e0e0e0;
+    -fx-cursor: hand;
+}
+
